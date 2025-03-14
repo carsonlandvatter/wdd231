@@ -1,0 +1,28 @@
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+        text-align: center;
+    }
+
+    .layout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .certificate {
+        grid-column: 1 / 3;
+    }
+}

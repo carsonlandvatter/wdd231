@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arimo", serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #175676;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: large;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+    border: 1px solid white;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.hamburger {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.nav-menu.active {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main h1 {
+    padding: 0 20px 0 20px;
+    color: #175676;
+    background-color: white;
+}
+
+.course-work {
+    text-align: center;
+}
+
+h2 {
+    background-color: #BA324F;
+    padding: 20px;
+    color: white;
+}
+
+.course-work ul {
+    padding: 20px;
+    margin: 20px;
+}
+
+.course-work ul li {
+    padding: 10px;
+}
+
+.utah {
+    text-align: center;
+}
+
+.utah img {
+    padding-top: 20px;
+}
+
+.certificate {
+    text-align: center;
+}
+
+figcaption {
+    padding-bottom: 20px;
+}
+
+.utah, .course-work, .certificate {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+footer {
+    background-color: #175676;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

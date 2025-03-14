@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a chamber website used for businesses so that is built using HTML, CSS, and Javascript">
+    <meta name="author" content="Carson Landvatter">
+    <title>Chambered Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Carrois+Gothic+SC&family=GFS+Didot&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Liter&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <img src="images/profile.png" alt="profile image" height="100px">
+        <h1>Carson Landvatter</h1>
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://github.com/carsonlandvatter">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/carson-landvatter-b72a49277/">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="layout">
+        <section class="course-work">
+            <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+        </section>
+        <section class="utah">
+            <h2>Utah, United States of America</h2>
+            <img src="images/home-image.webp" alt="Utah Arches" height="300px">
+            <figcaption>Utah Arches</figcaption>
+        </section>
+        <section class="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span>🏔️ Carson Landvatter 🏔️ United States of America 🇺🇸</p>
+        <p></p>
+    </footer>
+</body>
+</html>
