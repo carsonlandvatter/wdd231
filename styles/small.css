@@ -17,9 +17,7 @@ header {
 
 .container {
     display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
+    padding: 20px 20px 20px 40%;
     gap: 20px;
 }
 
@@ -60,7 +58,14 @@ nav li a:hover {
     padding: 10px 0;
 }
 
-main h1 {
+#title {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    color: white;
+}
+
+#home {
     padding: 0 20px 0 20px;
     color: #175676;
     background-color: white;
@@ -97,7 +102,7 @@ h2 {
     text-align: center;
 }
 
-figcaption {
+#image-caption {
     padding-bottom: 20px;
 }
 
