@@ -15,12 +15,6 @@ header {
     color: white;
 }
 
-.container {
-    display: flex;
-    padding: 20px 20px 20px 40%;
-    gap: 20px;
-}
-
 nav ul li {
     list-style: none;
     padding: 10px;
@@ -41,6 +35,19 @@ nav li a:hover {
     display: none;
 }
 
+.container {
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #175676;
+}
+
+main {
+    text-align: center;
+}
+
 .hamburger {
     position: absolute;
     top: 10px;
@@ -56,13 +63,6 @@ nav li a:hover {
     display: block;
     text-align: center;
     padding: 10px 0;
-}
-
-#title {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    color: white;
 }
 
 #home {
