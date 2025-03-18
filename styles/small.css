@@ -35,8 +35,8 @@ nav ul li a {
     color: white;
 }
 
-nav li:hover {
-    border: 1px solid white;
+nav li a:hover {
+    color: #98d8ff;
 }
 
 .nav-menu {
@@ -45,8 +45,9 @@ nav li:hover {
 
 .hamburger {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 20px;
+    padding: 0;
     font-size: 2rem;
     background: none;
     border: none;
@@ -105,6 +106,44 @@ figcaption {
     margin: 10px;
 }
 
+.class-buttons {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #175676;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #175676;
+}
+
+.course-card {
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.completed {
+    background-color: green;
+    color: white;
+}
+
+.incomplete {
+    background-color: saddlebrown;
+    color: white;
+}
+
+#credits {
+    padding: 30px;
+}
 
 footer {
     background-color: #175676;
