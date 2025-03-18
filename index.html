@@ -19,6 +19,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer ></script>
 </head>
 <body>
     <header>
@@ -54,12 +55,19 @@
         </section>
         <section class="certificate">
             <h2>Web and Computer Programming Certificate</h2>
+            <div class="class-buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div id="courses"></div>
+            <h3 id="credits">Total Credits: 0</h3>
         </section>
         </div>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span>🏔️ Carson Landvatter 🏔️ United States of America 🇺🇸</p>
-        <p></p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>
