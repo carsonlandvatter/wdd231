@@ -1,0 +1,41 @@
+/*must contain media query*/
+/*This shows that every screen that has a minimum size of 640px, apply these rules:*/
+@media (min-width: 650px) {
+    header img {
+        width: 200px;
+        height: auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .name {
+        font-size: xxx-large;
+    }
+
+    .container {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .navigation li {
+        display: block;
+    }
+    #course-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        background-color: var(--secondary-color);
+        padding: 20px;
+    }
+}

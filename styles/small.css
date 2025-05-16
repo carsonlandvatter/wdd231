@@ -1,0 +1,222 @@
+/*Ensure that the margin and padding are initially set to 0 and apply border box so that width and padding is easier to manage.*/
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    /*border box allows for width to stay at its value with the padding and border sizing*/
+    box-sizing: border-box;
+}
+
+/*ROOT VARIABLES*/
+:root {
+    --primary-color: #8A7968;
+    --primary-accent: #6F5E53;
+    --secondary-color: #AB947E;
+    --secondary-accent: #C3A995;
+}
+
+/*BASE VARIABLES*/
+body {
+    font-family: "Roboto", serif;
+    background-color: var(--secondary-accent);
+}
+
+/*MAIN*/
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: var(--primary-color);
+}
+
+header img {
+    border-radius: 100%;
+    width: 150px;
+    height: auto;
+    box-shadow: 0 0 10px 6px rgb(88, 69, 69);
+}
+
+.name {
+    font-size: x-large;
+    color: black;
+    font-weight: 900;
+}
+
+nav {
+    background-color: var(--primary-accent);
+}
+
+nav ul {
+    /*The small.css file should still use flex in order for the elements to be centered during mobile views.*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*removes bullet points*/
+    list-style: none;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    /*the list item is what defaults it to have bullet points.*/
+}
+
+nav ul li:hover {
+    border: 2px solid var(--secondary-accent);
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+nav a:hover {
+    color: var(--secondary-accent);
+}
+
+main {
+    margin: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+#course-work {
+    border-radius: 10px;
+    /*This allows for any child elements that are spilling out to be hidden*/
+    overflow: hidden;
+}
+
+#course-work ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    /*Since the padding gets hidden, we will have to add some back so that we can see the bullet points.*/
+    padding: 20px 20px 20px 40px;
+    gap: 20px;
+    background-color: var(--secondary-color);
+    height: 100%;
+}
+
+#location {
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#certificate {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+
+#location img {
+    width: 250px;
+    height: auto;
+    padding: 20px 0 0 0;
+}
+
+figcaption {
+    padding: 10px 0 30px 0;
+}
+
+.city-center {
+    background-color: var(--secondary-color);
+}
+
+#menu {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+/*This psuedo class is saying "Insert some content before this element's actual content purely with CSS.*/
+/*Since there the element is empty, it will only display the hamburger menu icon.*/
+#menu::before {
+    /*The way to get the trigram is to do this: Ctrl + Cmd + Space, search "trigram"*/
+    content: "☰"; /*This makes it so that it shows the hamburger menu icon.*/
+    font-size: xx-large;
+}
+
+.navigation li {
+    display: none;
+}
+
+/*This will be used once the class has been created through javascript.*/
+/*.navigation.show is used instead of navigation.show li because it is a parent element*/
+.show li {
+    display: block;
+}
+
+/*This will make an X for the user to click to get out of the main menu.*/
+#menu.show::before {
+    content: "x";
+}
+
+footer {
+    background-color: var(--primary-accent);
+    padding: 25px;
+    text-align: center;
+}
+
+#lastModified {
+    padding-top: 30px;
+    color: rgb(190, 190, 190);
+}
+
+#course-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid var(--primary-accent);
+    background-color: var(--secondary-color);
+}
+
+button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: var(--primary-accent);
+    border-color: var(--primary-color);
+}
+
+
+.course-card {
+    padding: 10px;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+.course-card h3 {
+    background-color: rgb(131, 76, 76);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.completed h3 {
+    background-color: rgb(82, 115, 82);
+}
+
+#total-credits {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+}

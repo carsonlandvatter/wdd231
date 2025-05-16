@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Learn more about me and my projects using this Home Page">
+    <meta name="author" content="Carson Landvatter">
+    <title>Course Home Page</title>
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo:ital,wght@0,400..700;1,400..700&family=Carrois+Gothic+SC&family=GFS+Didot&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Liter&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <!--Defer waits for the HTML to parse-->
 </head>
 <body>
-    
+    <header>
+        <!--alt is used so that if the image doesn't load, other users can see that text description instead.-->
+        <img src="images/profile.jpeg" alt="Profile image">
+        <!--span is used so that won't take up a full line.-->
+        <span class="name">Carson Landvatter</span>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <!--Before creating the nav list items, a unordered list needs to be creating as the parent element.-->
+        <ul class="navigation">
+            <!--When wanting to indent multiple lines of code, select right before where the code starts, highlight the text you need and hit tab.-->
+            <!--Each element of the nav should be in a list and uses anchors to create hyperlinks (href)-->
+            <li><a href="index.html">Home</a></li>
+            <!--href should be within the opening anchor tag.-->
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/carson-landvatter-b72a49277/">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="container">
+            <section id="course-work">
+                <h2>Course Work</h2>
+                <ul>
+                    <li>Home Page</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section id="location">
+                <h2>Utah, United States</h2>
+                <div class="city-center">
+                    <img src="images/city-center.webp" alt="Walker City Center in Salt Lake City">
+                    <figcaption>City Center</figcaption> 
+                </div>
+            </section>
+        </div>
+            <section id="certificate">
+                <h2>Web and Computer Programming Certificate</h2>
+                <div id="course-buttons">
+                    <button id="all-courses">All Courses</button>
+                    <button id="wdd-courses">WDD Courses</button>
+                    <button id="cse-courses">CSE Courses</button>
+                </div>
+            <div id="course-list"></div>
+            <p id="total-credits"></p>
+            </section>
+    </main>
+    <footer>
+        <!--Copyright symbol shortcut: option + G-->
+        <!--Emjois: Ctrl + Cmd + Space-->
+        <p>©<span id="currentyear"></span>🏔️ Carson Landvatter 🏔️ United States <span id="americanflag">🇺🇸</span></p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
