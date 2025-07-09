@@ -174,6 +174,7 @@ section p {
 #courses button {
     width: 100%;
     background-color: #eee;
+    color: black;
     border: none;
     padding: 8px;
     border-radius: 10px;
@@ -216,5 +217,5 @@ section p {
 
 #certificate p {
     text-align: center;
-    padding: 0;
+    padding: 0 15px 0 15px;
 }
