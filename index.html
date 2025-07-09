@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 course home page that demonstrates my previous knowledge of HTML, CSS, and Javascript.">
+    <meta name="author" content="Carson Landvatter">
+    <title>WDD 231 | Carson Landvatter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/course.js"></script>
+    <script defer src="scripts/date.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/home.svg" alt="Site Logo" width="1" height="1">
+        <span>Carson Landvatter</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div id="container">
+        <section>
+            <h2>About Me</h2>
+            <p>I am a student of Software Development and have enjoyed learning several computer programming languages. I also enjoy spending time with my wife and puppy. We enjoy going traveling to different places and have been to several different countries. I grew up in Salt Lake City, Utah and still live in that same area. One of my favorite things to do in Utah is to go snowboarding up Brighton Canyon with my wife. We can't wait for the season to get started soon because we are always up for an adventure!</p>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Profile">
+        </section>
+        <section id="certificate">
+            <h2>Web Certificate Courses</h1>
+            <div id="courses">
+            <button id="all">All</button>
+            <button id="wdd">WDD</button>
+            <button id="cse">CSE</button>
+            </div>
+            <div id="classes"></div>
+            <p>The total credits for the courses listed above is <span id="total-credits"></span></p>
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/carsonlandvatter"><img src="images/github.svg" alt="Github Icon" width="16" height="16" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/carson-landvatter-b72a49277/"><img src="images/linkedin.svg" alt="LinkedIn Icon" width="16" height="16" target="_blank"></a>
+            <a href="https://www.facebook.com/profile.php?id=100006269625227"><img src="images/facebook.svg" alt="Facebook Icon" width="16" height="16" target="_blank"></a>
+            <a href="https://www.instagram.com/carson_landvatter/?next=%2F"><img src="images/instagram.svg" alt="Instagram Icon" width="16" height="16" target="_blank"></a>
+        </div>
+        <p>&copy;<span id="current-year"></span> • Carson Landvatter • Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
