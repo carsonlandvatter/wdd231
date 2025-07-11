@@ -1,0 +1,18 @@
+{
+  "family-name":"Landvatter",
+  "moved-in-date": "10/12/24",
+  "number-of-records": 6,
+  "visited-bishopric": true,
+  "family-member-data": [
+    {
+        "name": "Tyson",
+        "gender": "male",
+        "birthdate": "10/22/04"
+    },
+    {
+        "name": "Braxton",
+        "gender": "male",
+        "birthdate": "10/22/04"
+    }
+  ]  
+}

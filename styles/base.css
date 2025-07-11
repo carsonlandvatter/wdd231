@@ -4,6 +4,7 @@
 }
 
 body {
+    width: 100%;
     font-size: 12pt;
     font-family: 'Inter', sans-serif;
 }
