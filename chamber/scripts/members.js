@@ -9,7 +9,7 @@ const displayCompanies = (companies) => {
         const address = document.createElement('p');
         const email = document.createElement('p');
         const phone = document.createElement('p');
-        const website = document.createElement('p');
+        const website = document.createElement('a');
         const level = document.createElement('p');
 
         name.textContent = `${company.name}`;
@@ -17,7 +17,8 @@ const displayCompanies = (companies) => {
         email.textContent = `${company.email}`;
         phone.textContent = `${company.phone}`;
         website.textContent = `${company.website}`;
-        level.textContent = `${company.level}`        
+        level.textContent = `${company.level}`;
+        website.setAttribute('href', company.website);        
         image.setAttribute('src', company.icon);
         image.setAttribute('alt', `${company.name} Logo`);
         image.setAttribute('loading', 'lazy');
