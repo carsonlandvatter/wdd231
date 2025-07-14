@@ -132,6 +132,34 @@ footer p {
 }
 
 /*Main*/
+#page-display {
+    display: flex;
+    justify-content: center;
+}
+
+#grid img, #list img {
+    width: 20px;
+    height: auto;
+}
+
+#grid:hover, #list:hover {
+    background-color: #596c6f;
+}
+
+#grid, #list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 6px;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #414d50;
+}
 
 #directory {
     font-family: 'Playfair Display', sans-serif;
