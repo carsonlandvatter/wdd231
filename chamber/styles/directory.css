@@ -129,3 +129,42 @@ footer p {
     font-size: 2rem;
     margin: 10px 10px 15px 0;
 }
+
+/*Main*/
+
+#directory {
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px dotted var(--text-color);
+}
+
+#cards {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    text-align: center;
+    justify-content: center;
+}
+
+#cards section {
+    background-color: var(--secondary-color);
+    height: 23rem;
+    border-radius: 20px;
+    border: 1px solid var(--text-color);
+}
+
+#cards section img {
+    padding-top: 20px;
+}
+
+#cards section h2 {
+    padding: 10px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+#cards section p {
+    padding: 7px;
+    margin: 0 auto;
+}
