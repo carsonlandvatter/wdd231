@@ -9,7 +9,6 @@ const displayProphets = (prophets) => {
         const birthDate = document.createElement('p');
         const birthPlace = document.createElement('p');
 
-
         birthDate.textContent = `Date of birth: ${prophet.birthdate}`;
         birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
         fullName.textContent = `${prophet.name} ${prophet.lastname}`;
