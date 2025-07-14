@@ -3,7 +3,7 @@
         {
             "name": "Cambro Manufacturing Co",
             "address": "5801 Skylab Rd, Huntington Beach, CA 92647",
-            "phone number": "(714)848-1555",
+            "phone": "(714)848-1555",
             "website": "https://www.cambro.com/",
             "icon": "https://media.licdn.com/dms/image/v2/C4D0BAQFXCLEAIbJNmg/company-logo_200_200/company-logo_200_200/0/1641313775484/cambro_manufacturing_logo?e=2147483647&v=beta&t=PQB4seT4k4VkkxZJeQ60COjmBkXz5s-007CwHYqdF2k",
             "level": "1",
@@ -12,7 +12,7 @@
         {
             "name": "Life Science Market Research a Life Science Intelligence, Inc. Company",
             "address": "17011 Beach Blvd #500, Huntington Beach, CA 92647",
-            "phone number": "(714) 847-3540",
+            "phone": "(714) 847-3540",
             "website": "https://www.lifesciencemarketresearch.com/",
             "icon": "https://media.licdn.com/dms/image/v2/D4E0BAQG4PaVIok3wzg/company-logo_200_200/company-logo_200_200/0/1712713655201/life_science_intelligence_logo?e=2147483647&v=beta&t=9mKkysy2T_XZ3FXbI_EflmfW21FYoJyAxp9r6Z-hkCI",
             "level": "1",
@@ -21,7 +21,7 @@
         {
             "name": "The Badge Company, Inc.",
             "address": "18261 Enterprise Ln Unit D, Huntington Beach, CA 92648",
-            "phone number": "(800) 223-4377",
+            "phone": "(800) 223-4377",
             "website": "https://www.thebadgecompany.com/",
             "icon": "https://s3-media1.fl.yelpcdn.com/bphoto/Us7SNC64105tLnHL-VLN4Q/l.jpg",
             "level": "2",
@@ -30,7 +30,7 @@
         {
             "name": "Partner Construction, Inc",
             "address": "20701 Beach Blvd Unit 217, Huntington Beach, CA 92648",
-            "phone number": "(949) 676-9526",
+            "phone": "(949) 676-9526",
             "website": "https://partnerconstructionpro.com/",
             "icon": "https://media.licdn.com/dms/image/v2/C4E0BAQEy7eF3pi3aHQ/company-logo_200_200/company-logo_200_200/0/1630637824629/patner_construction_inc_logo?e=2147483647&v=beta&t=CyAhEZqdKnafBLwFDQKqVs3FMHEQtJ3NphdYMw1-Hl0",
             "level": "3",
@@ -39,7 +39,7 @@
         {
             "name": "NLD Graphics and Printing",
             "address": "17610 Beach Blvd Ste 39, Huntington Beach, CA 92647",
-            "phone number": "(714) 375-1221",
+            "phone": "(714) 375-1221",
             "website": "https://www.nldgraphics.com/contact/",
             "icon": "https://www.nldgraphics.com/wp-content/uploads/2021/12/cropped-nld-favicon.png",
             "level": "2",
@@ -48,7 +48,7 @@
         {
             "name": "Enerflo",
             "address": "20422 Beach Blvd #215, Huntington Beach, CA 92648",
-            "phone number": "(562) 582-7728",
+            "phone": "(562) 582-7728",
             "website": "https://www.nldgraphics.com/",
             "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7F2EA7P2bQ75xVOzQ_ugK9eJZKwZNhWIWoIkpz97Po_4JKiZyHtw4oOK6TgParS5ok-A&usqp=CAU",
             "level": "1",
@@ -57,7 +57,7 @@
         {
             "name": "HB Digital",
             "address": "18331 Enterprise Ln, Huntington Beach, CA 92648",
-            "phone number": "(714) 536-3939",
+            "phone": "(714) 536-3939",
             "website": "https://www.hbdigital.com/",
             "icon": "https://www.hbdigital.com/wp-content/uploads/elementor/thumbs/hb-digital-logo-op8zx8hve1323zufj4csw888k6o26mcyzzvqgjfh3y.jpg",
             "level": "3",

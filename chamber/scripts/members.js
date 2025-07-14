@@ -18,7 +18,7 @@ const displayCompanies = (companies) => {
         phone.textContent = `${company.phone}`;
         website.textContent = `${company.website}`;
         level.textContent = `${company.level}`        
-        image.setAttribute('src', company.image);
+        image.setAttribute('src', company.icon);
         image.setAttribute('alt', `${company.name} Logo`);
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '200px');
@@ -37,7 +37,7 @@ const displayCompanies = (companies) => {
 };
 
 async function getCompanyData() {
-    const response = await fetch('../data/members.json');
+    const response = await fetch('https://carsonlandvatter.github.io/wdd231/chamber/data/members.json');
     const data = await response.json();
 
     displayCompanies(data.companies);
