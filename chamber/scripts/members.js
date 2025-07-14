@@ -15,9 +15,11 @@ const displayCompanies = (companies) => {
         name.textContent = `${company.name}`;
         address.textContent = `${company.address}`;
         email.textContent = `${company.email}`;
+        email.setAttribute('id', 'email');
         phone.textContent = `${company.phone}`;
         website.textContent = `${company.website}`;
         level.textContent = `Membership Level: ${company.level}`;
+        level.setAttribute('id', 'level');
         website.setAttribute('href', company.website);        
         image.setAttribute('src', company.icon);
         image.setAttribute('alt', `${company.name} Logo`);
@@ -45,3 +47,17 @@ async function getCompanyData() {
 }
 
 getCompanyData();
+
+const gridButton = document.querySelector('#grid');
+const listButton = document.querySelector('#list');
+const display = document.querySelector(".grid");
+
+gridButton.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listButton.addEventListener("click", () => {
+    display.classList.add("list");
+    display.classList.remove("grid");
+})

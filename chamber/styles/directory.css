@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Loto', sans-serif;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0;
     background-color: var(--background-color);
@@ -25,6 +25,7 @@ header {
     display: grid;
     grid-template-columns: 60px 1fr 40px;
     align-items: end;
+    overflow-x: hidden;
 }
 
 header img {
@@ -132,6 +133,11 @@ footer p {
 }
 
 /*Main*/
+
+main {
+    max-width: 100%;
+}
+
 #page-display {
     display: flex;
     justify-content: center;
@@ -161,6 +167,36 @@ footer p {
     border: 1px solid #414d50;
 }
 
+/*Grid View*/
+.list #cards {
+    margin-bottom: 30px;
+}
+
+.list section {
+    padding: 20px;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.list h2 {
+    font-size: 1rem;
+}
+
+.list img, #level, #email {
+    display: none;
+}
+
+.list #cards section:nth-child(odd) {
+    background-color: var(--secondary-color);
+}
+
+.list p, a {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/*List View*/
+
 #directory {
     font-family: 'Playfair Display', sans-serif;
     text-align: center;
@@ -168,7 +204,7 @@ footer p {
     border-bottom: 1px dotted var(--text-color);
 }
 
-#cards {
+.grid #cards {
     display: grid;
     grid-gap: 1rem;
     padding: 1rem;
@@ -177,7 +213,7 @@ footer p {
     justify-content: center;
 }
 
-#cards section {
+.grid #cards section {
     background-color: var(--secondary-color);
     height: 24rem;
     border-radius: 20px;
@@ -185,20 +221,20 @@ footer p {
     box-shadow: 4px 6px 10px var(--text-color);
 }
 
-#cards section img {
+.grid #cards section img {
     padding-top: 20px;
 }
 
-#cards section h2 {
+.grid #cards section h2 {
     padding: 10px;
     font-family: 'Playfair Display', sans-serif;
 }
 
-#cards section a {
+.grid #cards section a {
     padding: 7px 0 7px 0;
 }
 
-#cards section p {
+.grid #cards section p {
     padding: 7px;
     margin: 0 auto;
 }
