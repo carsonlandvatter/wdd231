@@ -150,9 +150,10 @@ footer p {
 
 #cards section {
     background-color: var(--secondary-color);
-    height: 23rem;
+    height: 24rem;
     border-radius: 20px;
     border: 1px solid var(--text-color);
+    box-shadow: 4px 6px 10px var(--text-color);
 }
 
 #cards section img {
@@ -162,6 +163,10 @@ footer p {
 #cards section h2 {
     padding: 10px;
     font-family: 'Playfair Display', sans-serif;
+}
+
+#cards section a {
+    padding: 7px 0 7px 0;
 }
 
 #cards section p {

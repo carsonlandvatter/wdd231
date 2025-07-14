@@ -17,7 +17,7 @@ const displayCompanies = (companies) => {
         email.textContent = `${company.email}`;
         phone.textContent = `${company.phone}`;
         website.textContent = `${company.website}`;
-        level.textContent = `${company.level}`;
+        level.textContent = `Membership Level: ${company.level}`;
         website.setAttribute('href', company.website);        
         image.setAttribute('src', company.icon);
         image.setAttribute('alt', `${company.name} Logo`);
