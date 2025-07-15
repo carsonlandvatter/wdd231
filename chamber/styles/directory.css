@@ -202,6 +202,7 @@ main {
     text-align: center;
     padding: 10px;
     border-bottom: 1px dotted var(--text-color);
+    font-size: 1.5rem;
 }
 
 .grid #cards {
