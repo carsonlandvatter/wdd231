@@ -58,4 +58,14 @@
     #call-to-action a {
         border-top: 1px solid var(--text-color);
     }
+
+    #sections {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    #company-spotlights {
+        grid-column: 1 / 3;
+    }
 }

@@ -197,6 +197,26 @@ main {
     background-color: #f3f3f3;
 }
 
+#sections {
+    text-align: center;
+}
+
+#current-events, #weather, #company-spotlights {
+    margin: 0 10px 20px 10px;
+}
+
+#sections h2 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: var(--text-color);
+    padding: 10px;
+}
+
+#current-events p {
+    padding: 100px;
+    background-color: var(--secondary-color);
+}
+
 
 /*List View*/
 .list #cards {
