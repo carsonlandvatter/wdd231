@@ -167,6 +167,37 @@ main {
     border: 1px solid #414d50;
 }
 
+#call-to-action h2 {
+    background-color: #c8d3d5cc;
+    padding: 1rem;
+    border-radius: 20px 20px 0 0;
+    font-weight: lighter;
+    width: 100%;
+}
+
+#call-to-action a {
+    display: block;
+    color: black;
+    padding: 20px 100px;
+    text-decoration: none;
+    border: 1px solid var(--text-color);
+    border-radius: 0 0 20px 20px;
+    background-color: rgba(255, 255, 255, 0.536);
+    margin-bottom: 20px;
+    width: 100%;
+    border-top: 1px solid var(--text-color);
+}
+
+#call-to-action {
+    margin: 20px;
+    text-align: center;
+}
+
+#call-to-action a:hover {
+    background-color: #f3f3f3;
+}
+
+
 /*List View*/
 .list #cards {
     margin-bottom: 30px;

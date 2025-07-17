@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 913px) {
     .hamburger {
         display: none;
     }
@@ -43,5 +43,19 @@
         display: grid;
         grid-template-columns: repeat(4, 12rem);
         gap: 30px;
+    }
+
+    #hero {
+        position: relative;
+    }
+
+    #call-to-action {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
+
+    #call-to-action a {
+        border-top: 1px solid var(--text-color);
     }
 }
