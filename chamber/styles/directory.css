@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Loto', sans-serif;
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 auto;
     padding: 0;
     background-color: var(--background-color);
@@ -212,8 +212,8 @@ main {
     padding: 10px;
 }
 
-#current-events p {
-    padding: 100px;
+#current-events {
+    height: 20rem;
     background-color: var(--secondary-color);
 }
 
@@ -290,4 +290,53 @@ main {
 .grid #cards section p {
     padding: 7px;
     margin: 0 auto;
+}
+
+/*******Weather*******/
+
+#weather {
+    background-color: var(--secondary-color);
+    height: 20rem;
+}
+
+#weather-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+#temperature {
+    font-size: 2rem;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+#temperature span {
+    text-align: left;
+}
+
+#description {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-top: 5rem;
+    text-align: left;
+}
+
+#weather-content img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: block;
+    margin-left: 30%;
+    justify-self: end;
+}
+
+#forecast {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    margin-top: 2rem;
+    padding: 30px;
+    border-top: 1px dashed var(--text-color);
+    font-family: 'Playfair Display', sans-serif;
 }
