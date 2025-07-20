@@ -134,6 +134,11 @@ footer p {
 
 /*Main*/
 
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
 main {
     max-width: 100%;
 }
@@ -205,7 +210,11 @@ main {
     margin: 0 10px 20px 10px;
 }
 
-#sections h2 {
+#company-spotlights #card h2 {
+    background-color: white;
+}
+
+#current-events h2, #weather h2 {
     font-family: 'Playfair Display', serif;
     color: white;
     background-color: var(--text-color);
@@ -213,7 +222,6 @@ main {
 }
 
 #current-events {
-    height: 20rem;
     background-color: var(--secondary-color);
 }
 
@@ -296,7 +304,7 @@ main {
 
 #weather {
     background-color: var(--secondary-color);
-    height: 20rem;
+
 }
 
 #weather-content {
@@ -339,4 +347,10 @@ main {
     padding: 30px;
     border-top: 1px dashed var(--text-color);
     font-family: 'Playfair Display', sans-serif;
+}
+
+#forecast p {
+    text-align: left;
+    font-size: 1.25rem;
+    margin: 20px 0 20px 0;
 }
