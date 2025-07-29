@@ -220,3 +220,26 @@ section p {
     text-align: center;
     padding: 0 15px 0 15px;
 }
+
+/*******Modal*******/
+
+dialog {
+    width: 600px;
+}
+
+dialog p {
+    padding: 10px 0 10px 0;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / 70%);
+}
+
+#courseTitle {
+    font-size: 1.5rem;
+    padding: 0;
+}
+ dialog button {
+    width: 100%;
+    padding: 5px;
+ }

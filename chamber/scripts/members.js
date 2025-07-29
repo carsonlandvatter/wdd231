@@ -15,7 +15,7 @@ const displayCompanies = (companies) => {
         name.textContent = `${company.name}`;
         address.textContent = `${company.address}`;
         email.textContent = `${company.email}`;
-        email.setAttribute('id', 'email');
+        email.setAttribute('id', 'emails');
         phone.textContent = `${company.phone}`;
         website.textContent = `${company.website}`;
         level.textContent = `Membership Level: ${company.level}`;
