@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script defer src="scripts/date.js"></script>
     <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/modals.js"></script>
 </head>
 <body>
     <header>
@@ -67,8 +68,79 @@
             <label for="business-description">Business Description:</label>
             <textarea id="business-description" name="business-description" title="Enter more details about your business" rows="8"></textarea>
             <input type="hidden" id="timestamp" name="timestamp">
-            <button type="submit">Submit</button>
+            <button type="submit">Confirm</button>
         </form>
+        <div id="membership-cards">
+        <h2 id="membership-heading">Memberships</h2>
+        <div class="card card1">
+            <h2>Non Profit</h2>
+            <a id="open-np">Learn more</a>
+        </div>
+        <div class="card card2">
+            <h2>Bronze</h2>
+            <a id="open-bronze">Learn more</a>
+        </div>
+        <div class="card card3">
+            <h2>Silver</h2>
+            <a id="open-silver">Learn more</a>
+        </div>
+        <div class="card card4">
+            <h2>Gold</h2>
+            <a id="open-gold">Learn more</a>
+        </div>
+        </div>
+        <div id="membership-modals">
+            <div id="test-modals">
+            <dialog id="np-modal" class="modals">
+                <h2>Non Profit - $100/year</h2>
+                <p>Affordable access for mission driven organizations.</p>
+                <p>Stay connected with the community while enjoying essential Chamber benefits</p>
+                <ul>
+                    <li>Access to member networking events</li>
+                    <li>Inclusion in the online Chamber Directory</li>
+                    <li>Invitations to community events</li>
+                    <li>Basic access to trainings and resources</li>
+                </ul>
+                <button id="closeNp">Close</button>
+            </dialog>
+            <dialog id="bronze-modal" class="modals">
+                <h2>Bronze - $250/year</h2>
+                <p>Visibility and value for growing businesses.</p>
+                <p>A great starting point to build connections and promote your brand</p>
+                <ul>
+                    <li>All Non Profit benefits</li>
+                    <li>Discounted tickets to Chamber events</li>
+                    <li>Logo placement on our website</li>
+                    <li>Access to Chamber-hosted business trainings</li>
+                </ul>
+                <button id="closeBronze">Close</button>
+            </dialog>
+            <dialog id="silver-modal" class="modals">
+                <h2>Silver - $500/year</h2>
+                <p>Boost your exposure and expand your reach</p>
+                <p>Designed for businesses ready to grow their presence in the local market</p>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Rotating spotlight feature on the Chamber homepage</li>
+                    <li>Priority registration for workshops and sponsorships</li>
+                    <li>Extended advertising options across Chamber channels</li>
+                </ul>
+                <button id="closeSilver">Close</button>
+            </dialog>
+            <dialog id="gold-modal" class="modals">
+                <h2>Gold - $1,000/year</h2>
+                <p>Premium exposure and top-tier access</p>
+                <p>Maximize your visibility and take a leading role in the Chamber and community</p>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Permanent homepage spotlight position</li>
+                    <li>Featured promotions in Chamber newsletters and social media</li>
+                    <li>VIP access to exclusive events</li>
+                </ul>
+                <button id="closeGold">Close</button>
+            </dialog>
+            </div>
+        </div>
     </main>
     <footer>
         <p id="contact"><strong>Huntington Beach Chamber of Commerce</strong><br>18452 Seaview Lane<br>
