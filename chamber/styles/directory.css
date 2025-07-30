@@ -450,6 +450,7 @@ form button {
 dialog {
     height: 480px;
     margin: 0 auto;
+    margin-top: 100px;
     align-self: center;
     border-radius: 10px;
     border: 1px solid var(--text-color);
@@ -476,12 +477,6 @@ dialog h2 {
     font-size: 1.25rem;
     text-align: center;
     padding: 20px;
-}
-
-#test-modals {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 dialog p, ul {
