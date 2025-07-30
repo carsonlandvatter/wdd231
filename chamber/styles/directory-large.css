@@ -80,6 +80,7 @@
     }
 
     form {
+        margin: 40px 0 40px 40px;
         grid-column: 1 / 2;
     }
 
@@ -89,5 +90,13 @@
 
     dialog {
         margin-top: 0;
+    }
+
+    #results {
+        width: 700px;
+    }
+
+    #signup {
+        margin-top: 80px;
     }
 }

@@ -38,7 +38,7 @@
     <main>
         <h1 id="directory">Join Us Today</h1>
         <div id="join-grid">
-        <form>
+        <form method="get" action="thankyou.html">
             <label for="fname">First:</label>
             <input type="text" id="fname" name="fname" title="Enter your first name" autocomplete="given-name" required>
             <label for="lname">Last:</label>
@@ -69,7 +69,7 @@
             <label for="business-description">Business Description:</label>
             <textarea id="business-description" name="business-description" title="Enter more details about your business" rows="8"></textarea>
             <input type="hidden" id="timestamp" name="timestamp">
-            <button type="submit">Confirm</button>
+            <input id="signup" type="submit" value="Sign Up"></input>
         </form>
         <div id="membership-cards">
         <h2 id="membership-heading">Memberships</h2>
