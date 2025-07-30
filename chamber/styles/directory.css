@@ -396,6 +396,7 @@ button {
 .card {
     margin: 15px;
     padding: 30px;
+    padding-bottom: 50px;
     border-radius: 10px;
 }
 
@@ -418,7 +419,7 @@ button {
 .card h2 {
     font-family: 'Playfair Display', serif;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #membership-heading {
@@ -431,6 +432,9 @@ button {
 
 .card a {
     color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 form button {
@@ -444,7 +448,7 @@ form button {
 dialog {
     height: 480px;
     margin: 0 auto;
-    align-self: center;
+    margin-top: 100%;
     border-radius: 10px;
     border: 1px solid var(--text-color);
     padding: 0 20px 0 20px;
@@ -491,6 +495,8 @@ dialog button {
     margin-top: 10px;
     border-radius: 20px;
     border: 1px solid black;
+    color: black;
+    background-color: white;
 }
 
 
