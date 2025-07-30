@@ -360,7 +360,7 @@ main {
 form {
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin: 20px;
     padding: 30px;
     background-color: var(--secondary-color);
     border-radius: 10px;
@@ -388,7 +388,7 @@ fieldset {
 #membership-cards {
     text-align: center;
     background-color: white;
-    margin: 40px;
+    margin: 20px;
     border: 1px solid var(--text-color);
 }
 

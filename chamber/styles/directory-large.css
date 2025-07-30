@@ -72,6 +72,8 @@
     #membership-cards {
         display: flex;
         flex-direction: column;
+        margin: 40px;
+        margin-top: 20px;
     }
 
     #join-grid {
@@ -80,7 +82,7 @@
     }
 
     form {
-        margin: 40px 0 40px 40px;
+        margin: 20px 0 40px 40px;
         grid-column: 1 / 2;
     }
 
