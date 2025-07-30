@@ -401,18 +401,26 @@ button {
 
 .card1 {
     background-color: #a4b8c4d4;
+    animation: flip-cards 0.5s ease-in 0s 2;
+    animation-direction: alternate;
 }
 
 .card2 {
     background-color: rgba(139, 69, 19, 0.343);
+    animation: flip-cards 0.5s ease-in 1s 2;
+    animation-direction: alternate;
 }
 
 .card3 {
     background-color: rgba(192, 192, 192, 0.339);
+    animation: flip-cards 0.5s ease-in 2s 2;
+    animation-direction: alternate;
 }
 
 .card4 {
     background-color: rgba(255, 217, 0, 0.318);
+    animation: flip-cards 0.5s ease-in 3s 2;
+    animation-direction: alternate;
 }
 
 .card h2 {
@@ -503,4 +511,10 @@ dialog button {
 
 dialog::backdrop {
     background-color: rgba(255, 255, 255, 0.922);
+}
+
+/******ANIMATION******/
+
+@keyframes flip-cards {
+    to {transform: rotateX(180deg);}
 }
