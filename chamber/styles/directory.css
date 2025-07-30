@@ -478,6 +478,12 @@ dialog h2 {
     padding: 20px;
 }
 
+#test-modals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 dialog p, ul {
     padding: 10px;
 }
