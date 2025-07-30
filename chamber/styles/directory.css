@@ -441,6 +441,7 @@ form button {
     background-color: white;
     border: 1px solid var(--text-color);
     border-radius: 10px;
+    color: black;
 }
 
 /*******MODALS********/
