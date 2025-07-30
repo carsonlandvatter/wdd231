@@ -172,6 +172,10 @@ main {
     border: 1px solid #414d50;
 }
 
+#list {
+    margin-bottom: 70px;
+}
+
 #call-to-action h2 {
     background-color: #c8d3d5cc;
     padding: 1rem;
