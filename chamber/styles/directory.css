@@ -389,13 +389,12 @@ button {
     text-align: center;
     background-color: white;
     margin: 10px 10px 20px 10px;
-    border-radius: 10px;
     border: 1px solid var(--text-color);
 }
 
 .card {
     margin: 15px;
-    padding: 30px;
+    padding: 50px;
     padding-bottom: 50px;
     border-radius: 10px;
 }
@@ -419,7 +418,7 @@ button {
 .card h2 {
     font-family: 'Playfair Display', serif;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #membership-heading {
@@ -427,7 +426,6 @@ button {
     padding: 10px;
     color: white;
     background-color: var(--text-color);
-    border-radius: 10px 10px 0 0;
 }
 
 .card a {
@@ -448,7 +446,7 @@ form button {
 /*******MODALS********/
 
 dialog {
-    height: 480px;
+    height: 380px;
     margin: 0 auto;
     margin-top: 100px;
     align-self: center;
