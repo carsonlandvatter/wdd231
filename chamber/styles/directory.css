@@ -435,6 +435,7 @@ button {
     background-color: white;
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 form button {
@@ -498,8 +499,8 @@ dialog button {
     border: 1px solid black;
     color: black;
     background-color: white;
+    cursor: pointer;
 }
-
 
 dialog::backdrop {
     background-color: rgba(255, 255, 255, 0.922);
