@@ -461,7 +461,7 @@ fieldset {
 /*******MODALS********/
 
 dialog {
-    height: 380px;
+    height: 450px;
     margin: 0 auto;
     margin-top: 100px;
     align-self: center;
@@ -509,6 +509,7 @@ dialog button {
     margin: 0 auto;
     padding: 5px 60px 5px 60px;
     margin-top: 10px;
+
     border-radius: 20px;
     border: 1px solid black;
     color: black;
