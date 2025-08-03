@@ -34,3 +34,14 @@ h2 {
 li {
     list-style-position: inside;
 }
+
+#desktop {
+    width: 900px;
+    height: auto;
+    padding-left: 40px;
+}
+
+#mobile {
+    width: 500px;
+    padding: 10px 40px 10px 40px;
+}
