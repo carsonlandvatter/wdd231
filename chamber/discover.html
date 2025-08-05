@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Huntington Beach Chamber of Commerce where we grow local businessess, help the economy, and improve the community.">
+    <meta name="description" content="Welcome to the Huntington Beach Chamber of Commerce Directory Page where you can discover local businesses in one place quickly.">
     <meta name="author" content="Carson Landvatter">
     <meta property="og:title" content="Huntington Beach Chamber of Commerce">
-    <meta property="og:description" content="Wanting to spread your business? We help companies grow quickly and connect with the community.">
+    <meta property="og:description" content="Wanting to learn more about the demographic and culture in the Huntington Beach area? Check out our discover page here!">
     <meta property="og:image" content="https://carsonlandvatter.github.io/wdd231/chamber/images/huntington.webp">
     <meta property="og:url" content="https://carsonlandvatter.github.io/wdd231/chamber/directory.html">
     <title>Huntington Beach Chamber of Commerce</title>
@@ -19,8 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script defer src="scripts/date.js"></script>
     <script defer src="scripts/navigation.js"></script>
-    <script defer src="scripts/weather.js"></script>
-    <script defer src="scripts/spotlight.js"></script>
 </head>
 <body>
     <header>
@@ -29,47 +27,18 @@
         <button id="ham-btn" class="hamburger"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li class="current"><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="hero">
-            <img src="images/hero.webp" alt="Huntington Beach City">
-            <h1 id="directory">Business Home Page</h1>
-            <div id="call-to-action">
-                <h2>Grow your business with us.</h2>
-                <a href="join.html">Join now</a>
-            </div>
-        </div>
-        <div id="sections">
-            <section id="current-events">
-                <h2>Events</h2>
-                <p></p>
-            </section>
-            <section id="weather">
-                <h2>Current Weather</h2>
-                <div id="weather-content">
-                        <p id="temperature"><span id="current-temp"></span></p>
-                        <p id="description"></p>
-                            <img id="weather-icon" src="#" alt="#">
-                </div>
-                    <div id="forecast">
-                        <h3>Forecast</h3>
-                        <p>Today: <span id="today"></span>&deg;F</p>
-                        <p>Tomorrow: <span id="tomorrow"></span>&deg;F</p>
-                        <p>Following Day: <span id="other"></span>&deg;F</p>
-                    </div>
-            </section>
-            <section class="grid" id="company-spotlights">
-                <div id="cards"></div>
-            </section>
-        </div>
-
-    </main>
+        <h1 id="directory">Discover</h1>
+        <article class="area-grid">
+            <div id="area-cards"></div>
+        </article>
     <footer>
         <p id="contact"><strong>Huntington Beach Chamber of Commerce</strong><br>18452 Seaview Lane<br>
         Huntington Beach, CA 92648<br>info@huntingtoncc.org<br>(714) 555-8492</p>
