@@ -1,3 +1,4 @@
+
 const areaCards = document.querySelector('#area-cards');
 
 const displayAreas = (items) => {
