@@ -7,6 +7,7 @@ const displayAreas = (items) => {
         const card = document.createElement('section');
         const name = document.createElement('h2');
         const image = document.createElement('img');
+        const figure = document.createElement('figure');
         const address = document.createElement('address');
         const description = document.createElement('p');
 
@@ -19,7 +20,8 @@ const displayAreas = (items) => {
         // image.setAttribute('width', 'auto');
         // image.setAttribute('height', '75px');
 
-        card.appendChild(image);
+        figure.appendChild(image);
+        card.appendChild(figure);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(description);
