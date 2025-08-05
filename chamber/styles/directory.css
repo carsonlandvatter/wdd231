@@ -304,6 +304,56 @@ main {
     margin: 0 auto;
 }
 
+/******Area Cards*******/
+.area-grid section {
+    display: grid;
+    grid-template-areas:
+    "name"
+    "description"
+    "address"
+    "image";
+    background-color: var(--secondary-color);
+    border: 1px solid var(--text-color);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px var(--text-color);
+}
+
+.area-grid {
+    margin-bottom: 20px;
+}
+
+.area-grid h2 {
+    padding: 10px;
+    grid-area: name;
+}
+
+.area-grid p {
+    padding: 10px;
+    grid-area: description;
+}
+
+.area-grid figure {
+    grid-area: image;
+}
+
+.area-grid img {
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.area-grid address {
+    grid-area: address;
+    padding: 10px;
+}
+
+.area-grid figure {
+    justify-self: center;
+}
+
 /*******Weather*******/
 
 #weather {
@@ -441,6 +491,9 @@ fieldset {
 }
 
 .card a {
+    display: inline-block;
+    width: auto;
+    text-align: center;
     color: black;
     background-color: white;
     padding: 10px;
@@ -461,7 +514,7 @@ fieldset {
 /*******MODALS********/
 
 dialog {
-    height: 450px;
+    height: 410px;
     margin: 0 auto;
     margin-top: 100px;
     align-self: center;
@@ -509,7 +562,6 @@ dialog button {
     margin: 0 auto;
     padding: 5px 60px 5px 60px;
     margin-top: 10px;
-
     border-radius: 20px;
     border: 1px solid black;
     color: black;

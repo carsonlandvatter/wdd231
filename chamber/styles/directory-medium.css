@@ -1,0 +1,20 @@
+@media only screen and (min-width: 641px) {
+    .area-grid section {
+        display: grid;
+        grid-template-areas:
+        "image name"
+        "image description"
+        "image address";
+    }
+
+    .area-grid img {
+        width: 320px;
+    }
+
+    .area-grid img:hover {
+        opacity: 0.6;
+    }
+
+
+    
+}

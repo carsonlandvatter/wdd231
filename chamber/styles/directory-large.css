@@ -1,4 +1,4 @@
-@media only screen and (min-width: 913px) {
+@media only screen and (min-width: 1025px) {
     .hamburger {
         display: none;
     }
@@ -100,5 +100,18 @@
 
     #signup {
         margin-top: 80px;
+    }
+
+    #area-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .area-grid section {
+        grid-template-areas:
+        "name"
+        "description"
+        "address"
+        "image";
     }
 }

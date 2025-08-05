@@ -13,6 +13,7 @@ const displayAreas = (items) => {
 
         name.textContent = `${item.name}`;
         address.textContent = `${item.address}`;
+        description.textContent = `${item.description}`
 
         image.setAttribute('src', item.image);
         image.setAttribute('alt', `${item.name}`);
