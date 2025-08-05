@@ -240,6 +240,17 @@ main {
     background-color: var(--secondary-color);
 }
 
+#current-events li {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+}
+
+#current-events ul {
+    padding: 20px;
+}
+
+
 
 /*List View*/
 .list #cards {
@@ -608,3 +619,4 @@ dialog::backdrop {
 #results h2 {
     font-family: 'Playfair Display', sans-serif;
 }
+
