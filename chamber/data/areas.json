@@ -1,53 +1,53 @@
 {
     "items": [
-    {
-        "name": "Huntington Beach Pier",
-        "address": "21601 Pacific Coast Hwy, Huntington Beach, CA 92646",
-        "description": "Most people will walk along the pier and go through several of the shops.",
-        "image": "images/pier.webp"
-    },
-    {
-        "name": "Orange County Coast",
-        "address": "25300 Dana Point Harbor Dr, Dana Point, CA 92629",
-        "description": "This is where most people will go to enjoy the beach and watch the sunset.",
-        "image": "images/orange-county.webp"
-    },
-    {
-        "name": "Huntington State Beach",
-        "address": "21601 Pacific Coast Highway, Huntington Beach, CA 92646",
-        "description": "Here many people will play or lay out alongside the waves of the ocean.",
-        "image": "images/beach.webp"
-    },
-    {
-        "name": "Main Street Huntington Beach",
-        "address": "525 Main Street, Huntington Beach, CA 92648",
-        "description": "Along Main Street, there are a lot of people crowding the streets to find different items from all the shops and restaraunts.",
-        "image": "images/main-street.webp"
-    },
-    {
-        "name": "Huntington Dog Beach",
-        "address": "100 Goldenwest St, Huntington Beach, CA 92648",
-        "description": "This beach specifically is an attraction for dog owners because it is one of the only beaches close that allows dogs to go on the beach.",
-        "image": "images/dog-beach"
-    },
-    {
-        "name": "Huntington Central Park",
-        "address": "18002 Goldenwest St, Huntington Beach, CA 92648",
-        "description": "This beautiful park is full of greenery where most locals will enjoy picnics, take walks, or ride bikes.",
-        "image": "images/park.webp"
-    },
-    {
-        "name": "Huntington Beach Library",
-        "address": "7111 Talbert Ave, Huntington Beach, CA 92648",
-        "description": "Those who love reading and studying will often go to this nearby library.",
-        "image": "images/library.webp"
-    },
-    {
-        "name": "Huntington Beach Bonfires",
-        "address": "21601 Pacific Coast Highway, Huntington Beach, CA 92646",
-        "description": "It is a common thing for most people to stay out even until dark on the beach to enjoy having bonfires.",
-        "image": "images/bonfire.webp"
-    }
+        {
+            "name": "Huntington Beach Pier",
+            "address": "21601 Pacific Coast Hwy, Huntington Beach, CA 92646",
+            "description": "Most people will walk along the pier and go through several of the shops.",
+            "image": "images/pier.webp"
+        },
+        {
+            "name": "Orange County Coast",
+            "address": "25300 Dana Point Harbor Dr, Dana Point, CA 92629",
+            "description": "This is where most people will go to enjoy the beach and watch the sunset.",
+            "image": "images/orange-county.webp"
+        },
+        {
+            "name": "Huntington State Beach",
+            "address": "21601 Pacific Coast Highway, Huntington Beach, CA 92646",
+            "description": "Here many people will play or lay out alongside the waves of the ocean.",
+            "image": "images/beach.webp"
+        },
+        {
+            "name": "Main Street Huntington Beach",
+            "address": "525 Main Street, Huntington Beach, CA 92648",
+            "description": "Along Main Street, there are a lot of people crowding the streets to find different items from all the shops and restaraunts.",
+            "image": "images/main-street.webp"
+        },
+        {
+            "name": "Huntington Dog Beach",
+            "address": "100 Goldenwest St, Huntington Beach, CA 92648",
+            "description": "This beach specifically is an attraction for dog owners because it is one of the only beaches close that allows dogs to go on the beach.",
+            "image": "images/dog-beach"
+        },
+        {
+            "name": "Huntington Central Park",
+            "address": "18002 Goldenwest St, Huntington Beach, CA 92648",
+            "description": "This beautiful park is full of greenery where most locals will enjoy picnics, take walks, or ride bikes.",
+            "image": "images/park.webp"
+        },
+        {
+            "name": "Huntington Beach Library",
+            "address": "7111 Talbert Ave, Huntington Beach, CA 92648",
+            "description": "Those who love reading and studying will often go to this nearby library.",
+            "image": "images/library.webp"
+        },
+        {
+            "name": "Huntington Beach Bonfires",
+            "address": "21601 Pacific Coast Highway, Huntington Beach, CA 92646",
+            "description": "It is a common thing for most people to stay out even until dark on the beach to enjoy having bonfires.",
+            "image": "images/bonfire.webp"
+        }
     ]
 
 }

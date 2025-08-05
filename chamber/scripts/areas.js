@@ -23,15 +23,15 @@ const displayAreas = (items) => {
         card.appendChild(address);
         card.appendChild(description);
 
-        cards.appendChild(card);
+        areaCards.appendChild(card);
     });
 };
 
-async function getCompanyData() {
+async function getAreaData() {
     const response = await fetch('https://carsonlandvatter.github.io/wdd231/chamber/data/areas.json');
     const data = await response.json();
 
     displayAreas(data.items);
 }
 
-getCompanyData();
+getAreaData();
