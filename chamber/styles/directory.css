@@ -19,6 +19,17 @@ body {
     background-color: var(--background-color);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
 header {
     max-width: 100%;
     background-color: var(--secondary-color);
