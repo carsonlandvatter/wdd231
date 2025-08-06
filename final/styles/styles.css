@@ -13,6 +13,7 @@
 body {
     background-color: black;
     font-family: "Maven Pro", sans-serif;
+    color: var(--text-color);
 }
 
 /********HEADER********/
@@ -91,4 +92,16 @@ nav img {
     width: 2rem;
     height: auto;
     margin-left: 0;
+}
+
+/*******SIDEBAR********/
+
+#visitor-message {
+    color: black;
+    background-color: var(--accent2-color);
+    margin-top: 15px;
+    padding: 10px;
+    width: 250px;
+    margin-left: 0;
+    border-radius: 0 30px 30px 0;
 }

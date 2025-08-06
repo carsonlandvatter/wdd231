@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="desccription" content="Welcome to the Loopify Discovery Page! Here you will be able to discover all different kinds of music and be able to add them to your playlist!">
     <meta name="author" content="Carson Landvatter">
+    <meta property="og:title" content="Loopify | Discover">
+    <meta property="og:description" content="Welcome to the Loopify Discovery Page! Here you will be able to discover all different kinds of music and be able to add them to your playlist!">
+    <meta property="og:image" content="https://carsonlandvatter.github.io/wdd231/final/images/facebook.png">
+    <meta property="og:url" content="https://carsonlandvatter.github.io/wdd231/final/index.html">
     <title>Loopify | Discover</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
     <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/message.js"></script>
     
 </head>
 <body>
@@ -21,12 +27,14 @@
     <button class="ham-btn"></button>
     <nav class="navigation">
         <ul>
-            <li class="current"><a href="index.html"><img src="images/search.svg" alt="Search">Discover</a></li>
-            <li><a href="library.html"><img src="images/music-library.svg" alt="Music Library">Library</a></li>
-            <li><a href="nowplaying.html"><img src="images/play-button.svg" alt="Play Button">Now Playing</a></li>
+            <li><a href="index.html"><img src="images/yellow-search.svg" alt="Search">Discover</a></li>
+            <li><a href="library.html"><img src="images/gray-music-library.svg" alt="Music Library">Library</a></li>
+            <li><a href="nowplaying.html"><img src="images/gray-play-button.svg" alt="Play Button">Now Playing</a></li>
         </ul>
     </nav>
-    <main></main>
+    <main>
+        <div id="visitor-message"></div>
+    </main>
     <footer></footer>
     
 </body>
