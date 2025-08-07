@@ -30,5 +30,17 @@
         border-bottom: none;
     }
 
+    fieldset {
+        margin: 0 auto;
+        width: 512px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-around;
+    }
+
 
 }
