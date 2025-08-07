@@ -13,6 +13,3 @@ if (!daysBetween) {
 }
 
 localStorage.setItem("lastVisit", Date.now());
-
-
-

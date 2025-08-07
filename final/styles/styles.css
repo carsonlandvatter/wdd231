@@ -146,6 +146,7 @@ select {
     color: white;
     font-size: 1rem;
     padding: 5px;
+    border-radius: 5px;
 }
 
 form button {
@@ -155,7 +156,7 @@ form button {
     border: none;
     border-radius: 5px;
     background-color: var(--accent1-color);
-
+    color: black;
 }
 
 /*******FOOTER********/
@@ -167,6 +168,7 @@ footer {
 
 footer p {
     padding: 5px;
+    padding-left: 10px;
 }
 
 footer p:first-child {
