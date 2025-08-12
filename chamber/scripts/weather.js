@@ -6,7 +6,7 @@ const tomorrow = document.getElementById("tomorrow");
 const other = document.getElementById("other");
 
 //Create variables for url
-const myKey = "5dd1e3c24fe9ab8570645faecbe00773";
+const myKey = "";
 const myLat = "33.65848657624823";
 const myLon = "-117.9969439947934";
 const url = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLon}&appid=${myKey}&units=imperial`;
