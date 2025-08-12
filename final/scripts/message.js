@@ -1,3 +1,4 @@
+    
 const visitMessage = document.querySelector('#visitor-message');
 
 const lastVisit = parseInt(localStorage.getItem("lastVisit"));

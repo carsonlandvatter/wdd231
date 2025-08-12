@@ -3,64 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the Loopify Discovery Page! Here you will be able to discover all different kinds of music and be able to add them to your playlist!">
+    <meta name="description" content="See what's currently playing on Loopify — your live music hub for real-time track info, album art, and smooth playback controls.">
     <meta name="author" content="Carson Landvatter">
-    <meta property="og:title" content="Loopify | Discover">
-    <meta property="og:description" content="Welcome to the Loopify Discovery Page! Here you will be able to discover all different kinds of music and be able to add them to your playlist!">
+    <meta property="og:title" content="Loopify | Now Playing">
+    <meta property="og:description" content="See what's currently playing on Loopify — your live music hub for real-time track info, album art, and smooth playback controls.">
     <meta property="og:image" content="https://carsonlandvatter.github.io/wdd231/final/images/facebook.png">
-    <meta property="og:url" content="https://carsonlandvatter.github.io/wdd231/final/index.html">
-    <title>Loopify | Discover</title>
+    <meta property="og:url" content="https://carsonlandvatter.github.io/wdd231/final/nowplaying.html">
+    <title>Loopify | Now Playing</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
-    <script defer src="scripts/navigation.js"></script>
-    <script defer src="scripts/message.js"></script>
-    <script defer src="scripts/dates.js"></script>
-    
+    <script type="module" src="scripts/modules.js"></script> 
+    <script defer src="scripts/modals.js"></script>
 </head>
 <body>
     <header>
         <img src="images/radio.svg" alt="Loopify Logo">
         <h1>Loopify</h1>
     </header>
-    <button class="ham-btn" aria-label="open-menu"></button>
+    <button class="ham-btn"></button>
     <nav class="navigation">
         <ul>
-            <li><a href="index.html"><img src="images/yellow-search.svg" alt="Search">Discover</a></li>
-            <li><a href="library.html"><img src="images/gray-music-library.svg" alt="Music Library">Library</a></li>
-            <li><a href="nowplaying.html"><img src="images/gray-play-button.svg" alt="Play Button">Now Playing</a></li>
+            <li><a href="index.html"><img src="images/yellow-play-button.svg" alt="Play Button">Discover</a></li>
+            <li><a href="artists.html"><img src="images/gray-music-library.svg" alt="Music Library">Artists</a></li>
+            <li><a href="songrequest.html"><img src="images/gray-search.svg" alt="Search">Song Request</a></li>
         </ul>
     </nav>
     <main>
-        <div id="visitor-message"></div>
-        <!--list of songs and artists they can preview-->
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Not seeing a song? Request it here!</legend>
-                <label for="name">Your Name</label>
-                <input type="text" name="name" id="name" required>
-                <label for="song-title">Song Title</label>
-                <input type="text" name="song-title" id="song-title" required>
-                <label for="artist">Artist</label>
-                <input type="text" name="artist" id="artist" required>
-                <label for="genre">Genre</label>
-                <select id="genre" name="genre" placeholder="">
-                    <option value="" disabled selected hidden>Choose...</option>
-                    <option value="pop">Pop</option>
-                    <option value="rock">Rock</option>
-                    <option value="hiphop">Hip Hop</option>
-                    <option value="indie">Indie</option>
-                    <option value="electronic">Electronic</option>
-                </select>
-                <label for="reason">Why do you love this track?</label>
-                <textarea name="reason" id="reason" rows="6"></textarea>
-                <button type="submit">Send Request</button>
-                <!--Song request form-->
-            </fieldset>
-        </form>
+        <img src="images/hero.jpg" alt="Concert" id="hero">
+        <h2>Welcome to Loopify!</h2>
+        <button id="openModal">Click here to to learn more about us!</button>
+        <dialog id="modal">
+            <h2>Loopify</h2>
+            <p>Loopify is an exciting new music startup built to give listeners a fresh way to discover, enjoy, and organize their favorite tracks. While we're just getting started, we're already working on bringing you a growing library of songs from popular artists across a variety of genres.</p>
+            <p>Our mission is to combine a sleek, modern interface with high-quality audio and smart features that make finding your next favorite song effortless. This is just the beginning—soon, you'll be able to stream tracks from chart-topping names, explore curated playlists, and experience music in a way that feels personal and inspiring. Stay tuned—Loopify's first wave of songs is coming soon.</p>
+            <button id="closeModal">Close</button>
+        </dialog>
+        <div id="tracks">
+            <iframe data-testid="embed-iframe" src="https://open.spotify.com/embed/track/59r5QeLXiLYEjk8tOWWD7o?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2xsAm4w9P3kSF1DophKAiF?utm_source=generator&theme=0" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6V7bxWg4mmuU4ILbYPQJvd?utm_source=generator&theme=0" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
     </main>
     <footer>
         <p>WDD 231 | Class Final Project</p>

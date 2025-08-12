@@ -16,8 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
-    <script defer src="scripts/navigation.js"></script>
-    <script defer src="scripts/dates.js"></script>
+    <script type="module" src="scripts/modules.js"></script>
+    <script defer src="scripts/artists.js"></script>
     
 </head>
 <body>
@@ -28,12 +28,14 @@
     <button class="ham-btn"></button>
     <nav class="navigation">
         <ul>
-            <li><a href="index.html"><img src="images/gray-search.svg" alt="Search">Discover</a></li>
-            <li><a href="library.html"><img src="images/gray-music-library.svg" alt="Music Library">Library</a></li>
-            <li><a href="nowplaying.html"><img src="images/yellow-play-button.svg" alt="Play Button">Now Playing</a></li>
+            <li><a href="index.html"><img src="images/gray-play-button.svg" alt="Play Button">Discover</a></li>
+            <li><a href="artists.html"><img src="images/yellow-music-library.svg" alt="Music Library">Artists</a></li>
+            <li><a href="songrequest.html"><img src="images/gray-search.svg" alt="Search">Song Request</a></li>
         </ul>
     </nav>
     <main>
+        <div id="loading">Loading. Please wait...<img src="images/loop.svg" alt="Loading"></div>
+        <section id="artists"></section>
     </main>
     <footer>
         <p>WDD 231 | Class Final Project</p>
