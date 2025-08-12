@@ -9,8 +9,8 @@ async function getAccessToken() {
             },
             body: new URLSearchParams({
                 'grant_type': 'client_credentials',
-                'client_id': '5b20f55264784e20adb70082e9882519',
-                'client_secret': 'febff13e63cc48ef8b0f91d6ee7d6950'
+                'client_id': '5b20f55264784e20adb70082e9882511',
+                'client_secret': 'febff13e63cc48ef8b0f91d6ee7d6951'
             })
         });
         if (tokenURL.ok) {
@@ -117,7 +117,7 @@ async function getArtistInfo() {
 
 
             artistCards.appendChild(cards);
-            
+
             document.getElementById('loading').style.display = 'none';
         });
 
